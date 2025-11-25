@@ -1,11 +1,13 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { LocalizationProvider } from './src/contexts/LocalizationContext';
 
-import { HistoryProvider } from './contexts/HistoryContext';
-import { ToastProvider } from './contexts/ToastContext';
-import { LoadingProvider } from './contexts/LoadingContext';
+// كل الـ contexts داخل src/contexts
+import { LocalizationProvider } from './src/contexts/LocalizationContext';
+import { HistoryProvider } from './src/contexts/HistoryContext';
+import { ToastProvider } from './src/contexts/ToastContext';
+import { LoadingProvider } from './src/contexts/LoadingContext';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -26,3 +28,5 @@ root.render(
     </LocalizationProvider>
   </React.StrictMode>
 );
+
+
