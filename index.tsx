@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { LocalizationProvider } from './contexts/LocalizationContext';
+import { LocalizationProvider } from './src/contexts/LocalizationContext';
+
 import { HistoryProvider } from './contexts/HistoryContext';
 import { ToastProvider } from './contexts/ToastContext';
 import { LoadingProvider } from './contexts/LoadingContext';
