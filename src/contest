@@ -1,0 +1,6 @@
+
+
+import { LocalizationProvider } from './src/contexts/LocalizationContext';
+import { HistoryProvider } from './src/contexts/HistoryContext';
+import { ToastProvider } from './src/contexts/ToastContext';
+import { LoadingProvider } from './src/contexts/LoadingContext';
